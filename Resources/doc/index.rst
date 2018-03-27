@@ -9,7 +9,7 @@ following command to download the latest stable version of this bundle:
 
 .. code-block:: bash
 
-    $ composer require symfony/swiftmailer-bundle "~2.3"
+    $ composer require smile/ezseobundle "~1.0.*"
 
 This command requires you to have Composer installed globally, as explained
 in the `installation chapter`_ of the Composer documentation.
@@ -33,7 +33,7 @@ in the ``app/AppKernel.php`` file of your project:
             $bundles = array(
                 // ...
 
-                new Symfony\Bundle\SwiftmailerBundle\SwiftmailerBundle(),
+                new Smile\EzSeoBundle\SmileEzSeoBundle(),
             );
 
             // ...
